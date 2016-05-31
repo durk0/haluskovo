@@ -119,14 +119,16 @@ button a {
   color: white;
   font-size: 50px;
   font-family: 'Questrial', sans-serif;
+  transition: 300ms ease-in-out;
+  
 }
 
 .text a {
   text-decoration: none;
 }
 
-.text:hover {
+.text p:hover {
   transition: 300ms ease-in-out;
-  transform: scale(1.02);
+  transform: translate(10px,0px);
 
 }

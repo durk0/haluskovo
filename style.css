@@ -90,11 +90,8 @@ button a {
   height: 100vh;
   margin: auto 10px;
   height: auto;
-<<<<<<< HEAD
   transition: 300ms ease-in-out;
 
-=======
->>>>>>> 427f7ff69a34e7725efd3edb5e5a4fdcec747059
 }
 .text p {
   display: inline-flex;
@@ -102,7 +99,6 @@ button a {
   /*background-color: rgba(255,255,255,0.3);*/
   padding: 0 10px;
   color: white;
-<<<<<<< HEAD
   font-size: 50px;
   font-family: 'Questrial', sans-serif;
 }
@@ -116,9 +112,3 @@ button a {
   transform: scale(1.02);
 
 }
-=======
-
-  font-size: 50px;
-  font-family: 'Questrial', sans-serif;
-}
->>>>>>> 427f7ff69a34e7725efd3edb5e5a4fdcec747059

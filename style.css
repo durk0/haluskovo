@@ -130,5 +130,4 @@ button a {
 .text p:hover {
   transition: 300ms ease-in-out;
   transform: translate(10px,0px);
-
 }

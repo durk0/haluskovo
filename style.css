@@ -109,5 +109,5 @@ button a {
 
 .text a:hover {
   transition: 300ms ease-in-out;
-  transform: scale(1.01);
+  transform: scale(1.02);
 }

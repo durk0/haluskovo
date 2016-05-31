@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  background-image: url("images/head1.jpg");
+  background-size: 100%;
+  height: 200vh;
+}
+
+table {
+  height: 100vh;
+  background-color: rgba(255,255,255,0.3) ;
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+table td {
+  /*display: flex;*/
+  justify-content: center;
+}
+
+.header img{
+  width: 40vh;
+  top: 100px;
+  margin: 0 auto;
+  display: flex;
+}
+
+button {
+  height: 12vh;
+  width: 12vh;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: inherit;
+  animation-name: arrow;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  margin-bottom: 50px;
+  cursor: pointer;
+
+}
+
+button:focus {
+  outline:0;
+}
+
+button a {
+  display: inline-flex;
+  font-size: 10vh;
+  text-decoration: none;
+  color: white;
+  padding: 0 20px;
+  transition: 500ms ease-in-out;
+  /*animation: scrolling 0.6s ease-in-out 0.2s backwards*/
+}
+
+@keyframes arrow {
+    0% {transform: scale(1.0);}
+    50% {transform: scale(1.3);}
+    100% {transform: scale(1.0);}
+}
+@keyframes scrolling{
+    0% {
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.text{
+  height: 100vh;
+  margin: auto 10px;
+  height: auto;
+<<<<<<< HEAD
+  transition: 300ms ease-in-out;
+
+=======
+>>>>>>> 427f7ff69a34e7725efd3edb5e5a4fdcec747059
+}
+.text p {
+  display: inline-flex;
+  border: 1px solid rgba(255,255,255,0.3);
+  /*background-color: rgba(255,255,255,0.3);*/
+  padding: 0 10px;
+  color: white;
+<<<<<<< HEAD
+  font-size: 50px;
+  font-family: 'Questrial', sans-serif;
+}
+
+.text a {
+  text-decoration: none;
+}
+
+.text:hover {
+  transition: 300ms ease-in-out;
+  transform: scale(1.02);
+
+}
+=======
+
+  font-size: 50px;
+  font-family: 'Questrial', sans-serif;
+}
+>>>>>>> 427f7ff69a34e7725efd3edb5e5a4fdcec747059

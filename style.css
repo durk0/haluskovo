@@ -88,7 +88,7 @@ button a {
 
 .text{
   height: 100vh;
-  margin: auto 10px;
+  margin: auto 20px;
   height: auto;
   transition: 300ms ease-in-out;
 
@@ -109,6 +109,5 @@ button a {
 
 .text a:hover {
   transition: 300ms ease-in-out;
-  transform: scale(1.02);
-
+  transform: scale(1.01);
 }

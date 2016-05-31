@@ -35,6 +35,24 @@ table td {
   justify-content: center;
 }
 
+/*table h1 {
+  color: white;
+  font-size: 20vh;
+  font-family: 'Questrial', sans-serif;
+  position: absolute;
+  top: 20vh;
+  left: 25%;
+  line-height: 20vh;
+  border: 1px solid black;
+}*/
+
+#headimg {
+  width: 100%;
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+}
+
 .header img{
   width: 40vh;
   top: 100px;
@@ -88,7 +106,7 @@ button a {
 
 .text{
   height: 100vh;
-  margin: auto 20px;
+  margin: auto 10px;
   height: auto;
   transition: 300ms ease-in-out;
 
@@ -110,4 +128,5 @@ button a {
 .text a:hover {
   transition: 300ms ease-in-out;
   transform: scale(1.02);
+
 }

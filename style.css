@@ -46,12 +46,22 @@ table td {
   border: 1px solid black;
 }*/
 
+/*#headimg {*/
+/*  width: 100%;*/
+/*  opacity: 0.6;*/
+/*  position: absolute;*/
+/*  left: 0;*/
+/*}*/
+
+
 #headimg {
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.8;
   position: absolute;
+  top: 18vh;
   left: 0;
 }
+
 
 .header img{
   width: 40vh;
